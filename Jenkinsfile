@@ -30,7 +30,7 @@ pipeline {
 
   }
   tools {
-    nodejs 'nodeJs'
+    nodejs  'nodeJS'
   }
   post {
     always {
