@@ -1,3 +1,7 @@
+  tools{
+       nodejs 'nodeJS'
+    }
+    
 pipeline {
   agent any
   stages {
