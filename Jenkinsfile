@@ -9,7 +9,7 @@ pipeline{
         stage('build-the-app'){
             steps{
                 echo 'this is the build job'
-                sh 'np install'
+                sh 'npm install'
             }
         }
         stage('test-the-app'){
